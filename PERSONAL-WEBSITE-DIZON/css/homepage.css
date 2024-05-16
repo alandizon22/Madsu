@@ -1,0 +1,188 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{ 
+ margin: 0;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.topnav{
+    display: flex;
+    justify-content: center;
+    background-color: #111211;
+    overflow: hidden;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.topnav a{
+color: #f2f2f2;
+text-align: center;
+padding: 14px 50px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: #937b6e;
+color: #ffffff;
+}
+.header{
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 550px;
+  display: grid;
+  padding: 100px 50px;
+}
+.overlay{
+  place-self: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  text-align: center;
+  color: #ffffff;
+  padding: 80px;
+  width: 80%;
+}
+
+.about{
+   padding: 100px 50px;
+   display: flex;
+   background-color: #111211;
+   color: #ffffff;
+}
+  
+.content{
+  place-self: center;
+  text-align: center;
+  line-height: 22px;
+  padding: 50px 50px 50px 0px;
+  width: 50%;
+  letter-spacing: 0.8px;
+}
+
+.about-image{
+  place-self: center;
+  width: 20%;
+}
+
+.about-image img{
+  width: 800px;
+  height: auto;
+  object-fit: cover;
+  border: 2px solid #ffffff;
+}
+
+.Gallery-image{
+  padding: 150px 50px;
+  height: auto;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.911), rgba(0, 0, 0, 0.952)), url('/img/background.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+div.gallery img{
+  width: 100px;
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+  border: 2px solid #fff;
+}
+
+.responsive{
+  padding: 6px 6px;
+  display: inline-grid;
+  width: 33%;
+  box-sizing: border-box;
+}
+
+/* Style for the main container */
+.hobbies-and-interest {
+  margin: auto;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.945);
+}
+
+/* Style for the content container */
+.content2 {
+  text-align: center;
+}
+
+/* Style for the heading */
+.content2 h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+/* Style for the paragraph */
+.content2 p {
+  font-style: italic;
+  font-size: 20px;
+  line-height: 1.5;
+  color: white;
+}
+
+/* Style for the video container */
+.video-container {
+  margin-top: 20px;
+}
+
+/* Style for the video */
+.video-container video {
+  width: 80%;
+  height: auto;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 25px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+  opacity: 0.7;
+  }
+  
+  .social-media-links {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fa {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .fa:hover {
+    color: #007bff;
+  }
+
+  #back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 24px;
+  }
+  
+  #back-to-top:hover {
+    background-color: #0056b3;
+  }
+  
